@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>rigstration form</title>
+  </head>
+  <body>
+    <body style="background-color: rgb(193, 211, 218);"></body>
+    <form>
+      <fieldset>
+        <legend>user personal informatation</legend>
+        <label>enter your full name</label><br />
+        <input type="text" name="name" /><br />
+        <label>enter your email</label><br />
+        <input type="email" name="email" /><br />
+        <label>enter your password</label><br />
+        <input type="password" name="pass" /><br />
+
+        <label>enter your gender</label><br />
+        <input type="radio" id="gender" name="gender" value="male" />male<br />
+        <input
+          type="radio"
+          id="gender"
+          name="gender"
+          value="female"
+        />female<br />
+        <input
+          type="radio"
+          id="gender"
+          name="gender"
+          value="other"
+        />other<br />
+        enter your address:<br />
+        <textarea></textarea><br />
+        select country:
+        <select name="country" id="register_counter">
+          <option value="in">india</option>
+          <option value="rus">rasiya</option>
+          <option value="RUS">Africa</option>
+          <option value="AME">China</option></select
+        ><br /><br />
+        choose a car:
+        <select name="car" id="car">
+          <optgroup label="German cars">
+            <option value="b.m.w">B.M.W</option>
+            <option value="Audi">audi</option>
+          </optgroup>
+          <optgroup label="india">
+            <option value="swift">swift</option>
+            <option value="mhindra">mhindra</option>
+          </optgroup></select
+        ><br /><br />
+        <label for="browsers">
+       Choose:  
+         <input list="browsers" name="browser" id="browser"> 
+         <datalist id="browsers"> 
+         <option value="Edge"> 
+         <option value="Firefox"> 
+         <option value="Chrome"> 
+         <option value="Opera"> 
+         <option value="Safari"> 
+        </datalist> <br/><br>
+        <input type="submit" value="sign-up" /><br />
+      </fieldset>
+    </form>
+  </body>
+</html>
